@@ -2,9 +2,9 @@
 
 This repository contains (will contains) code samples for various Java Executor Frameworks APIs.
 
-## Package ``completablefuture``  
+## [Package](https://github.com/magnusram05/executor/tree/master/src/main/java/org/java/practice/completablefuture) ``completablefuture``
 
-### ``CompletableFutureNormal.java`` [Link to the package](https://github.com/magnusram05/executor/tree/master/src/main/java/org/java/practice/completablefuture)
+### ``CompletableFutureNormal.java`` 
 
 * Execute a task (T1) > Once it completes, start the next task (T2)
 * Mark the ``CompleteableFuture`` that represents the result as completed normally or exceptionally based on the status of T1 & T2

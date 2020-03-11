@@ -1,4 +1,4 @@
-package org.java.practice.completion;
+package org.java.practice.completablefuture;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.CompletableFuture;
 
 public class CompletableFutureNormal {
-    private static Logger LOGGER = LogManager.getLogger("org.java.practice.completion");
+    private static Logger LOGGER = LogManager.getLogger("org.java.practice.completablefuture");
 
     public static void main(String[] args) throws Exception {
         final CompletableFuture<CallResponses.CallResponseFinal> completableFuture = new CompletableFuture<>();

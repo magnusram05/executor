@@ -1,4 +1,4 @@
-package org.java.practice.completion;
+package org.java.practice.completablefuture;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class CompletableFutureList {
-    private static Logger LOGGER = LogManager.getLogger("org.java.practice.completion");
+    private static Logger LOGGER = LogManager.getLogger("org.java.practice.completablefuture");
     private static final ThreadPoolExecutor executorService = new ThreadPoolExecutor(5, 10, 2, TimeUnit.SECONDS, new ArrayBlockingQueue<>(10), new ThreadFactory() {
         private String threadName = "Primary-Thread-%d";
         private AtomicInteger threadNumber = new AtomicInteger();

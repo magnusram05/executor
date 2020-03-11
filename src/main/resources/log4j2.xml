@@ -13,7 +13,7 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="org.java.practice.completion.*" level="info" additivity="true">
+        <Logger name="org.java.practice.completablefuture.*" level="info" additivity="true">
             <AppenderRef ref="App"/>
         </Logger>
         <Root level="info">

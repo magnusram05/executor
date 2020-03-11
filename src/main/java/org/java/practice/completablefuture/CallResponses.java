@@ -1,4 +1,4 @@
-package org.java.practice.completion;
+package org.java.practice.completablefuture;
 
 public class CallResponses {
     static class CallResponse1 {

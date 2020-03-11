@@ -1,6 +1,6 @@
 # Java: Executor Framework API sample programs
 
-This repository contains (will contains) code samples for various Java Executor Frameworks APIs.
+This repository contains (will contain) code samples for various Java Executor Frameworks APIs.
 
 ## [completablefuture](https://github.com/magnusram05/executor/tree/master/src/main/java/org/java/practice/completablefuture) 
 

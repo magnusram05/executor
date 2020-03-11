@@ -2,7 +2,7 @@
 
 This repository contains (will contains) code samples for various Java Executor Frameworks APIs.
 
-## [Package](https://github.com/magnusram05/executor/tree/master/src/main/java/org/java/practice/completablefuture) ``completablefuture``
+## [completablefuture](https://github.com/magnusram05/executor/tree/master/src/main/java/org/java/practice/completablefuture) 
 
 ### ``CompletableFutureNormal.java`` 
 
